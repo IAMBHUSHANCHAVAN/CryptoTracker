@@ -1,0 +1,9 @@
+.allcoin{
+    height: 100vh;
+    /* border: 1px solid red; */
+    padding-top: 5rem;
+    /* overflow-y: scroll; */
+}
+span{
+    color: gold;
+}
