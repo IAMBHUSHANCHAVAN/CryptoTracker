@@ -29,7 +29,7 @@ const {currency} = CryptoState();
     try {
       const result = await response.json()
       setHistoricdata(result.prices)
-      console.log("dta" ,historicdata);
+      // console.log("dta" ,historicdata);
     } catch (error) {
       console.log(error);
     }

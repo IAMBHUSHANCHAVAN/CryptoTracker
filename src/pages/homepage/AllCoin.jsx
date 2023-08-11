@@ -75,7 +75,7 @@ const AllCoin = () => {
                       Last 24Hrs {curr.price_change_percentage_24h} 
                     </p>
                     <p className="card-text">Current Price {curr.current_price} {symbol}</p>
-                    <Link to={`/coin/${curr.id}`}className="btn btn-primary">
+                    <Link to={`/coinpage/${curr.id}`}className="btn btn-primary">
                       visit Coin
                     </Link>
                   </div>

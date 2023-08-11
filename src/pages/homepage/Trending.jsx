@@ -42,7 +42,7 @@ const Trending = () => {
                   <p className="card-text">
                     {coin.price_change_percentage_24h} %
                   </p>
-                  <Link to={`/coin/${coin.id}`}>
+                  <Link to={`/coinpage/${coin.id}`}>
                     <button className="btn btn-danger">visit coin</button>
                   </Link>
                 </div>

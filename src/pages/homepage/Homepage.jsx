@@ -6,6 +6,7 @@ const Homepage = () => {
   return (
     <div className='container'>
   <Trending/>
+  <hr className='mt-5' />
   <AllCoin/>
     </div>
   )

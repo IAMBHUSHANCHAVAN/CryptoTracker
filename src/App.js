@@ -11,7 +11,7 @@ function App() {
   <Header/>
   <Routes>
   <Route path="/" exact Component={Homepage}/>
-  <Route path="/coin/:id" Component={Coinpage}/>
+  <Route path="/coinpage/:id" Component={Coinpage}/>
   </Routes>
   </div>
   
